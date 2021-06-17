@@ -38,6 +38,10 @@ main
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=1 );
     /*Fin degradado*/
 }
+.Nombre
+{
+    text-align: center;
+}
 input
 {
     margin-bottom: 5px;

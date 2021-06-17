@@ -2,10 +2,12 @@ LoadLDocA("ToDoList.txt", "txt");
 
 function leerTXT(fichero)
 {
-    let lineas = fichero.split("/");
+    let lineas = fichero.split("\n");
     let centro = document.querySelector(".centro");
+    cosas = "";
     for(let i = 0; i < lineas.length; i++)
     {
-        centro += "<div class='Nombre'>" + lineas[i] + "</div>";
+        cosas += "<div class='Nombre'>" + lineas[i] + "</div>";
     }
+    centro.innerHTML = cosas;
 }
