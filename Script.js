@@ -20,17 +20,8 @@ function ReocgerDatos()
 }
 function escribirTexto(proyecto)
 {
-    /*
+    
     let fs = require('fs');
-    fs.writeFile(proyecto);*/
+    fs.writeFile(proyecto);
 
-    /*
-    var fso  = FileHandle("Scripting.FileSystemObject"); 
-    var fh = fso.OpenTextFile("ToDoList.txt", 2, false); 
-    fh.WriteLine(proyecto); 
-    fh.Close(); */
-
-    let fso = CreateObject("Scripting.FileSystemObject"); 
-    let s = fso.CreateTextFile("<your Path>/filename.txt", True);
-    s.writeline(proyecto);
 }
