@@ -21,7 +21,7 @@ function ReocgerDatos()
 function escribirTexto(proyecto)
 {
     
-    let fs = require('fs');
+    let fs = require('fs', 'utf-8');
     fs.writeFile(proyecto);
 
 }
